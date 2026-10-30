@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap'); 
+
+.text_header h1 {
+    font-size: 0; 
+    text-align: center;
+    background: url('URL_TO_YOUR_CREST_IMAGE.png') no-repeat center center;
+    background-size: contain;
+}
+
+.text_header h1::before {
+    content: "The";
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 80px; 
+    color: #111;
+    margin-right: 100px; 
+}
+
+.text_header h1::after {
+    content: "Standard";
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 80px; 
+    color: #111;
+    margin-left: 100px; 
+}
+
+.text_header::after {
+    content: "BUENOS AIRES MAY 1st 1910";
+    display: block;
+    font-family: "Cinzel", serif;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #111;
+    border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
+    padding: 5px 0;
+    margin-top: 15px;
+}
